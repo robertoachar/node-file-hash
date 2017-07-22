@@ -1,0 +1,38 @@
+{
+  "name": "node-file-hash",
+  "version": "1.0.0",
+  "description": "Create a hash for file identification.",
+  "author": "Roberto Achar <robertoachar@gmail.com>",
+  "homepage": "https://github.com/robertoachar/node-file-hash#readme",
+  "keywords": [
+    "node-js"
+  ],
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "coverage": "jest --colors --coverage",
+    "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls",
+    "jest": "jest --colors --verbose",
+    "lint": "eslint src/**/*.js test/**/*.js",
+    "start": "nodemon src/index.js",
+    "test": "npm run lint && npm run jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertoachar/node-file-hash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertoachar/node-file-hash/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "latest",
+    "coveralls": "latest",
+    "eslint": "latest",
+    "jest": "latest",
+    "nodemon": "latest"
+  },
+  "license": "MIT"
+}
