@@ -1,11 +1,15 @@
 {
   "name": "node-file-hash",
   "version": "1.0.0",
-  "description": "Create a hash for file identification.",
+  "description": "Compute the md5, sha1 and sha256 hashs of a string or buffer.",
   "author": "Roberto Achar <robertoachar@gmail.com>",
   "homepage": "https://github.com/robertoachar/node-file-hash#readme",
   "keywords": [
-    "node-js"
+    "node-js",
+    "hash",
+    "md5",
+    "sha1",
+    "sha256"
   ],
   "main": "src/index.js",
   "files": [
@@ -16,7 +20,7 @@
     "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls",
     "jest": "jest --colors --verbose",
     "lint": "eslint src/**/*.js test/**/*.js",
-    "start": "nodemon src/index.js",
+    "start": "nodemon sample/sample.js",
     "test": "npm run lint && npm run jest"
   },
   "repository": {
