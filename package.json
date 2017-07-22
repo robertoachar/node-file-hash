@@ -16,7 +16,7 @@
     "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls",
     "jest": "jest --colors --verbose",
     "lint": "eslint src/**/*.js test/**/*.js",
-    "start": "nodemon src/index.js",
+    "start": "nodemon sample/sample.js",
     "test": "npm run lint && npm run jest"
   },
   "repository": {
