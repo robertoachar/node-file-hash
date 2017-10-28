@@ -1,11 +1,11 @@
 {
   "name": "node-file-hash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Compute the md5, sha1 and sha256 hashs of a string or buffer.",
   "author": "Roberto Achar <robertoachar@gmail.com>",
   "homepage": "https://github.com/robertoachar/node-file-hash#readme",
   "keywords": [
-    "node-js",
+    "node",
     "hash",
     "md5",
     "sha1",
@@ -32,11 +32,11 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@types/jest": "latest",
-    "coveralls": "latest",
-    "eslint": "latest",
-    "jest": "latest",
-    "nodemon": "latest"
+    "@types/jest": "21.1.5",
+    "coveralls": "3.0.0",
+    "eslint": "4.10.0",
+    "jest": "21.2.1",
+    "nodemon": "1.12.1"
   },
   "license": "MIT"
 }

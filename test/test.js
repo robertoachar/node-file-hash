@@ -1,5 +1,3 @@
-'use strict';
-
 const lib = require('../src');
 
 describe('TESTS', () => {
