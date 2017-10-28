@@ -65,9 +65,11 @@ Running lint + tests                     | `npm test`
 Sending coverage results to Coveralls.io | `npm run coveralls`
 
 # Author
+
 [Roberto Achar](https://twitter.com/robertoachar)
 
 # License
+
 [MIT](https://github.com/robertoachar/node-file-hash/blob/master/LICENSE)
 
 [travis-badge]: https://travis-ci.org/robertoachar/node-file-hash.svg?branch=master
